@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/*--- fonts 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+---*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(68deg, #2F2325 16%, #8E5D52 85%);
+}
+
+/*--- Header ---*/
+.header {
+    display: flex;
+    padding: 24px 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 72px;
+}
+
+.navbar {
+    gap: 34px;
+    display: flex;
+}
+
+    .link {
+        font-size: 15px;
+        color: #FFF2E7;
+        transition: .2s linear;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .link:hover {
+        color: #EFC764;
+        transition: .2s linear;
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    }
+
+/*--- Content ---*/
+.content {
+    margin-bottom: 48px;
+    border-top: 1px solid #FFF2E7;
+}
+
+.primary {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.primary-content {
+    gap: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .primary-title {
+        font-size: 64px;
+        color: #FFF2E7;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .primary-subtitle {
+        font-size: 22px;
+        color: #ECD6C4;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+.primery-btn {
+    border: none;
+    font-size: 18px;
+    color: #2F2325;
+    cursor: pointer;
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    transition: .2s linear;
+    background-color: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+    .primery-btn:hover {
+        transition: .2s linear;
+        background-color: #EFC764;
+    }
+
+.primary-balle-bot {
+    height: 430px;
+}
+
+.secondary {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .secondary-title {
+        font-size: 24px;
+        font-weight: 500;
+        color: #FFF2E7;
+        padding-top: 46px;
+        margin-bottom: 16px;
+        border-top: 0.4px solid #FFF2E7;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .secondary-paragraph {
+        font-size: 16px;
+        color: #ECD6C4;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+/*--- Footer ---*/
+.footer {
+    padding: 30px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+    .footer-logo {
+        height: 48px;
+        display: block;
+        margin: 0 auto;
+    }

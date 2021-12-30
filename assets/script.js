@@ -38,7 +38,7 @@ document.querySelectorAll('[wm-link]').forEach(link => {
       e.preventDefault()
       fetch(link.getAttribute('wm-link'))
           .then(resp => resp.text())
-          .then(html => conteudo.innerHTML = html)
+          .then(html => content.innerHTML = html)
   }
 })
 
